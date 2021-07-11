@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+
+.logo{
+    margin: 2px 0 0 10px;
+}
+
+.nav-bar{
+    padding: 10px;
+    display: flex;
+    align-content: flex-start;
+    font-family: 'Sen', sans-serif;
+    width: 99%;
+}
+
+ul{
+    list-style-type: none;
+    margin-left: 20px;
+
+}
+
+ul li{
+    float: left;
+    padding-left: 70px;
+}
+
+
+ul li a{
+    
+    text-decoration: none;
+    text-align: center;
+    font-size: larger;
+    color: black;
+    opacity: 0.7;
+    font-weight: 700;
+    transition: all 0.4s ease;
+
+}
+
+ul li a:hover{
+    color: crimson;
+}
+
+#one{
+    display: flex;
+    margin-left: auto;
+    width: 150px;
+    height: 90px;
+    align-content:space-around;
+    background-color: #ED4E53;
+    transition: all 0.4s ease;
+}
+
+#one:hover{
+    background-color: #d4454a;
+}
+
+#one a{
+    padding: 33px 0 0 12px;
+    text-decoration: none;
+    color: #f9f9f9;
+    font-weight: 900;
+
+}
+
+#two{
+    display: flex;
+    width: 150px;
+    background-color: #515151;
+}
+
+#two img{
+    height: 70px;
+    padding-top: 10px;
+    padding-left: 30px;
+    width: auto;
+    transition: all 0.4s ease;
+}
+
+#two img:hover{
+    opacity: 0.6;
+}
+
+.banner{
+    display: flex;
+    background-color: #f9f9f9;
+}
+
+
+.image img{
+    margin: 0;
+    height: 800px;
+    width:auto;
+}
+
+.text{
+    float: left;
+    margin: 100px 0 0 0 ;
+    font-size: 30px;
+    padding: 0 0 0 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.text span{
+    opacity: 0.8;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-family: 'Oswald', sans-serif;
+}
+.para{
+    font-family: 'Sen', sans-serif;
+    font-size: 20px;
+    opacity: 0.4;
+}
+
+.btn,.btn2, .btn3{
+    display: flex;
+    align-content:space-around;
+    height: 50px;
+    width: 130px;
+    background-color: #ED4E53;
+    border-radius: 30px;
+    box-shadow: -2px 0px 38px -2px rgba(237,78,83,0.55);
+}
+.btn a , .btn2 a , .btn3 a{
+    text-decoration: none;
+    padding-top: 16px;
+    padding-left: 23px;
+    font-size: 14px;
+    font-family: 'Sen', sans-serif;
+    color: rgb(255, 251, 234);
+}
+
+.leaf{
+    margin-top: auto;
+    margin-left: auto;
+}
+
+.leaf img{
+    height: 200px;
+    width: auto;
+    float: right;
+}
+
+.steps , .slide{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Oswald', sans-serif;
+    margin: auto;
+    max-width: 1310px;
+    height: 600px;
+}
+
+
+.steps1 ,.down-slide{
+    display: flex;
+    margin: 0 auto 0 auto;
+    font-family: 'Oswald', sans-serif;
+    flex-direction: column;
+    align-items: center; 
+    line-height: 20px;   
+}
+
+.steps1 h3 ,.slide1 h3 ,.down-slide h3{
+    color:#ED4E53 ;
+    font-family: 'Oswald', sans-serif;
+}
+
+.steps1 h1,.down-slide h1{
+    font-size: 40px;
+}
+
+.steps1 p , .down-slide p{
+    font-family: 'Sen', sans-serif;
+    font-size: 20px;
+    opacity: 0.6;
+} 
+
+.steps2{
+    display: flex;
+    align-items: center;
+    margin: 0 auto 0 auto;
+}
+
+.steps2 p ,.slide1 p{
+    font-family: 'Sen', sans-serif;
+    font-size: 15px;
+    opacity: 0.7;
+}
+
+.order , .cook , .deliver ,.enjoy {
+    display: flex;
+    padding: 50px;
+    max-width: 250px;
+    align-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.order i, .cook i, .deliver i,.enjoy i{
+    color: #ED4E53 ;
+}
+
+.btn2{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 700;
+    transition: all 0.4s ease;
+}
+
+.btn2:hover{
+    background-color: #d13b40;
+}
+
+
+.btn2 a{
+    padding: 0;
+    margin: 17px 0 0 12px;
+
+}
+
+.slide{
+    margin: auto;
+    margin-top: 150px;
+    max-height: 300px;
+    background-color: #f9f9f9;
+    box-shadow: 6px 32px 59px -55px rgba(0,0,0,0.75);
+}
+
+.slide1{
+    float: left;
+    max-width: 600px;
+    margin: auto auto auto 30px;
+}
+
+.btn3{
+    float: left;
+    max-width: 500px;
+    margin: auto auto auto 40px;
+    margin-right: auto;
+    font-weight: 700;
+    transition: all 0.4s ease;
+}
+.btn3:hover{
+    background-color: #d13b40;
+}
+
+
+.btn3 a{
+    padding: 0;
+    margin: 17px 0 0 21px;
+
+}
+
+.pizza-r img{
+    height: 450px;
+    width: auto;
+}
+
+.pizza-r{
+    position: absolute;
+    margin: -380px 0 auto 1100px;
+    height: 200px;
+    width: auto;
+    
+}
+
+.down-slide{
+    margin-top: 150px;
+
+}
+
+.three-flex{
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+    max-width:1200px ;
+    flex-direction: row;
+    align-content: space-around;
+    
+}
+
+.three-flex .slide{
+    padding-bottom: 50px;
+    align-items: center;
+    float: left;
+    padding: 50px;
+    max-width: 200px;
+    max-height: 400px;
+    box-shadow: 6px 32px 59px -55px rgba(0,0,0,0.75);
+}
+
+.three-flex .slide h3{
+    color: black;
+}
+
+.images img{
+    height: 200px;
+    width: auto;
+    padding-left: 200px;
+
+}
+.images{
+    position: absolute;
+    margin-left: 250px;
+    margin-top:-650px;
+}
+.slide span{
+    margin-left: 10px;
+    padding: 5px 8px 5px 8px;
+    border-radius: 30px;
+    border:1px solid  rgb(61, 61, 61);
+}
+#line{
+    border: 1px solid black;
+    opacity: 0.2;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto auto auto;
+}
+
+.row1,.row2{
+    display: flex;
+    width: 1200px;
+    max-width: 1400px;
+    margin: 0 auto 0 auto;
+    align-items:center;
+}
+
+#logoend{
+    height: 80px;
+    width: auto;
+}
+
+.row1 img{
+    height: 50px;
+    width: auto;
+}
+
+.twologo{
+    display: flex;
+    margin-left: auto;
+}
+
+.twologo img{
+    padding-left: 20px;
+}
+
+.row2{
+    margin-top: 30px;
+}
+.row2 div{
+    padding-right: 210px;
+    opacity: 0.8;
+    font-family: 'Sen', sans-serif;
+}
+.row2 div h3{
+    line-height: 10px;
+    font-family: 'Oswald', sans-serif;
+
+}
